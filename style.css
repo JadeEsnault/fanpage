@@ -9,7 +9,9 @@ margin:0 auto;
 padding:20px 20px;
 color: black;
 text-align:center;
-font-size: 70px
+font-size: 70px;
+text-decoration: underline;
+font-style: italic;
 }
 h2
 {
@@ -45,16 +47,25 @@ h5
     font-style: italic;
 }
 
+h4
+{
+    margin:0 auto;
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+}
 h6
 {
     visibility: hidden;
     display: none;
 }
 
-h8
+h7
 {
 margin:0 auto;
 color: black;
+font-size: 30px;
+text-decoration: underline;
 }
 
 a.vertical {
@@ -72,4 +83,28 @@ a.vertical {
     background-color: #6495ED;
     background-image: url(aqua.jpg);
     border: 2px inset #c0c0c0;
+  }
+
+  h8
+  {
+    margin:0 auto;
+    padding:20px 20px;
+    color: peru;
+    font-size: 20px;
+  }
+
+  h9
+  {
+    margin:0 auto;
+    padding:20px 20px;
+    color:gray;
+    font-size: 20px;
+  }
+
+  h10
+  {
+    margin:0 auto;
+    padding:20px 20px;
+    color: pink;
+    font-size: 20px;
   }
